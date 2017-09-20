@@ -1,0 +1,2 @@
+noremap <space>dfk ddinewword<Esc>
+noremap <space>dfj onewword<Esc>
