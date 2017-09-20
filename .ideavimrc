@@ -1,4 +1,4 @@
-map <space>dfk ddinewword<Esc>
-map <space>dfj onewword<Esc>
-map <space>dfdfj :source ~/.ideavimrc<CR>
-map <space>dfdj onewword2<Esc>
+noremap <space>dfk ddinewword<Esc>
+noremap <space>dfj onewword<Esc>
+noremap <space>dfdfj :source ~/.ideavimrc<CR>
+noremap <space>dfdj onewword2<Esc>
