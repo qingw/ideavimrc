@@ -1,4 +1,25 @@
 noremap <space>dfk ddinewword<Esc>
-noremap <space>dfj onewword<Esc>
 noremap <space>dfdfj :source ~/.ideavimrc<CR>
 noremap <space>dfdj onewword2<Esc>
+" 搜索函数 会替换/搜索内容
+noremap <space>f<space> /\vpublic\s+[a-zA-Z\_]+\s+[a-zA-Z\_]+\(<CR>zz
+noremap <space>ff<space> ?\vpublic\s+[a-zA-Z\_]+\s+[a-zA-Z\_]+\(<CR>zz
+" 复制当前函数必须在函数定义第一行
+noremap <space>fc<space> kVj$%yGkO<Esc>pjzz
+" 修改函数名
+noremap <space>frn<space> 2wce
+" 修改参数
+noremap <space>fra<space> f(ci(
+" 修改url
+noremap <space>fru<space> kci"
+" 切换右边标签
+noremap <space>f<space> :action NextTab<CR>
+" 切换左边标签
+noremap <space>s<space> :action PreviousTab<CR>
+" 新建class
+noremap <space>nc<space> :action NewClass<CR>
+" 打开命令表
+noremap <space><space> :action GotoAction<CR>
+
+
+
